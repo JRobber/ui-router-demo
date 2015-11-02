@@ -8,9 +8,18 @@
 <body>
 
   <a href="/#/"><h2>INDEX HTML</h2></a>
+  <p><a ui-sref="settings">Settings</a>
+  <a ui-sref="list">List</a></p>
 
+  <ui-view></ui-view>    
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
   <script src="app.js"></script>
+  <script src="controller.js"></script>
+  <script src="settings-controller.js"></script>
+  <script src="list-controller.js"></script>
+  <script src="list-service.js"></script>
+  <script src="description-controller.js"></script>
 </body>
 </html>
