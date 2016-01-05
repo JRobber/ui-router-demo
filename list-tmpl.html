@@ -1,3 +1,6 @@
-<div ng-repeat="planet in planets track by $index">
-    Planet : <span ng-click="goToPlanet($index)">{{planet.name}}</span>
-</div>
+<h3>Too much:</h3>
+<ul>
+	<li ng-repeat="sweet in sweets track by $index">
+		<a ng-click="sweetClicked($index)">{{sweet.name}}</a>
+	</li>
+<ul>
